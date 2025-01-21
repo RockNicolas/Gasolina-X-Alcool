@@ -3,10 +3,7 @@ import './App.css';
 import logoImg from './assets/logo.png';
 import InputForm from './components/InputForm';
 import Result from './components/Result';
-/*
-Cálculo: Álcool / Gasolina
-E se o resultado for menor que 0.7 compensa usar Álcool
-*/
+
 interface InfoProps {
   title: string;
   gasolina: string | number;
